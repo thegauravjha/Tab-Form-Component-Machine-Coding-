@@ -1,0 +1,37 @@
+.tabs-heading {
+  display: flex;
+}
+
+.tab {
+  border: 1px solid #000;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.tab-content {
+  border: 1px solid #000;
+  height: 200px;
+  width: 50%;
+  padding: 5px 10px;
+}
+
+.field {
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.buttons > button {
+  margin: 10px;
+}
+
+.error-message {
+  display: block;
+  color: red;
+  font-size: 13px;
+}

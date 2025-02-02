@@ -36,14 +36,14 @@ export const tabs = [
   {
     name: 'Settings',
     component: Settings,
-    validate: () => {},
+    validate: () => (true),
   },
 ];
 
 export const initialData = {
-  name: 'Gaurav',
-  age: 24,
-  email: 'gaurav@gmail.com',
-  hobbies: ['coding'],
-  theme: 'light',
+  name: '',
+  age: 0,
+  email: '',
+  hobbies: [],
+  theme: '',
 };

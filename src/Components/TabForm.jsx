@@ -32,7 +32,11 @@ const Tabs = () => {
             className="tab"
             key={index}
             name={tab.name}
-            onClick={() => setActiveTab(index)}
+            onClick={() => {
+              if (tabs[activeTab].validate(data, setError)) {
+                setActiveTab(index)
+              }
+            }}
           >
             {tab.name}
           </div>

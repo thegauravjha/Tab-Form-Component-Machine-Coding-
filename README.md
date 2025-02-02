@@ -65,5 +65,3 @@ tab-form-component/
 This project is open for learning and improvement. Feel free to fork the repo and suggest enhancements or optimizations!
 
 ### 🚀 Happy Coding! 🎨
-
-Let me know if you'd like any tweaks or more details! 😊
